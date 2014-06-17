@@ -2,7 +2,7 @@
 # Build the image
 
 ```
-docker build -t medined/java-oracle7 .
+./build_image.sh
 ```
 
 # See the image
@@ -14,7 +14,7 @@ docker images
 # Run the image
 
 ```
-docker run -i -t medined/java-oracle7 /bin/bash
+./run_image.sh
 ```
 
 # Validate Java version inside image

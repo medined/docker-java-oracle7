@@ -3,6 +3,8 @@ MAINTAINER David Medinets <david.medinets@gmail.com>
 
 # Source: http://ofirm.wordpress.com/2014/01/05/creating-a-virtualized-fully-distributed-hadoop-cluster-using-linux-containers/
 
+RUN apt-get update
+
 # Get add-apt-repositoy command.
 RUN apt-get install -y software-properties-common
 
