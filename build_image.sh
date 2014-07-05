@@ -1,2 +1,2 @@
-docker build -t $USER/java-oracle7 .
+docker build --rm=true -t $USER/java-oracle7 .
 
